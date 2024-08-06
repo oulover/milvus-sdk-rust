@@ -51,6 +51,7 @@ pub enum MetricType {
     TANIMOTO,
     SUBSTRUCTURE,
     SUPERSTRUCTURE,
+    COSINE,
 }
 
 #[derive(Debug, Clone)]
